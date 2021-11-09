@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <link rel="shortcut icon" href="../icon/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="main-menu"> 
+        <div class="main-menu__container">
+            <a class="main-menu__alogo" href="www.colaborando.mx"><img class="main-menu__logo" src="../img/logo.png" alt=""></a>
+            <span class="main-menu__icon"><img id="main-menu__icon" src="../icon/menuIcon.png" alt="menu"></span>
+            <nav class="main-menu__nav">
+                <ul>
+                    <li><a class="main-menu__link" href="../index.html">Inicio</a></li>
+                    <li><a class="main-menu__link" href="../index.html#nosotros">Nosotros</a></li>
+                    <li><a class="main-menu__link" href="../index.html#queHacemos">¿Qué hacemos?</a></li>
+                    <li><a class="main-menu__link" href="../index.html#proyectos">Proyectos</a></li>
+                    <li><a class="main-menu__link" href="../index.html#galeria">Galería</a></li>
+                    <li><a class="main-menu__link" id="main-menu__link--active" href="ayuda.html">Colaborar</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__line"></div>
+    </header>
+
+    <div class="colabora" id="colabora">
+        <h2 class="colabora__title">Las 4 formas de colaborar</h2>
+        <p class="colabora__text">Conoce las formas que ofrecemos de colaborar. Seguro encontrarás alguna que se adapte a ti y a tus posibilidades de sumar tu grano de arena.</p>
+        <div class="colabora__container">
+            <a href="#colabora__efectivo">
+                <div class="colabora__forma formaC1">
+                    <img src="../icon/card.png" alt="">
+                    <h3 class="colabora__forma-title">Dona en efectivo</h3>
+                </div>
+            </a>
+            <a href="#colabora__empresas">
+                <div class="colabora__forma formaC3">
+                    <img src="../icon/handshake.png" alt="">
+                    <h3 class="colabora__forma-title">Empresas y organizaciones</h3>
+                </div>
+            </a>
+            <a href="#colabora__especie">
+                <div class="colabora__forma formaC4">
+                    <img src="../icon/fooddonation.png" alt="">
+                    <h3 class="colabora__forma-title">Dona en especie</h3>
+                </div>
+            </a>
+            <a href="#colabora__comunicacion">
+                <div class="colabora__forma formaC5">
+                    <img src="../icon/social.png" alt="">
+                    <h3 class="colabora__forma-title">Difusión y comunicación</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="colabora__efectivo"></div>
+    <div class="colabora-efectivo" id="efectivo">
+        <div class="colabora-efectivo__container">
+            <h3 class="colabora-efectivo__title">Dona en Efectivo</h3>
+            <p class="colabora-efectivo__text">Si tienes la posibilidad de donar, estos son los datos de la cuenta que concentra los donativos. Estas son las formas de hacerlo:</p>
+            <ul class="colabora-efectivo__list">
+                <li>Deposito</li>
+                <li>Transferencia</li>
+                <li>Depósito en tiendas Oxxo</li>
+            </ul>
+        </div>
+
+        <div class="colabora-efectivo__cuenta">
+            <ul>
+                <li><strong>Banco: </strong>BanCoppel</li>
+                <li><strong>Número de tarjeta: </strong>4169 1608 0157 3974</li>
+                <li><strong>Nombre: </strong>Jesús Hipólito Rodríguez</li>
+            </ul>
+        </div>
+        <div class="donation__division"><p>O</p></div>
+        <form action="https://www.paypal.com/donate" method="post" target="_blank" class="paypalButton__container">
+            <input type="hidden" name="hosted_button_id" value="QEWGMEJ8Z9ST8" />
+            <input type="image" class="paypalButton" src="../icon/paypalButton.png" border="0" name="submit" title="Colabora con nosotros con Paypal!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+    </div>
+
+    <div id="colabora__empresas"></div>
+    <div class="colabora-efectivo empresas" id="efectivo">
+        <div class="colabora-efectivo__container">
+            <h3 class="colabora-efectivo__title">Empresas y organizaciones</h3>
+            <div>
+                <p class="colabora-efectivo__text">Si respresentas a unas empresa puedes contruibuir al proyecto de las siguientes formas:</p>
+                <div class="colabora__span-container">
+                    <span>Donación en efectivo</span>
+                    <span>Donación en especie</span>
+                </div>
+            </div>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfy4CO8wNYswzVYao9lnsrJk3iOLSKGFhUO2v_i1l2_A-9GGA/formResponse" target="frame">
+            <div class="empresas__formulario">
+                <h2>Ponte en contacto <br> con nosotros</h2>
+                <div>
+                    <input name="entry.908759136" type="text" placeholder="Nombre de la empresa" id="form-empresa__nombre" maxlength="40" required>
+                </div>
+                <div>
+                    <input name="entry.1567398327" type="text" placeholder="Nombre del representante" id="form-empresa__representante" maxlength="45">
+                </div>
+                <div>
+                    <input name="entry.444233974" type="text" placeholder="Medio de contacto" id="form-empresa__contacto" maxlength="45">
+                </div>
+                <div>
+                    <textarea name="entry.549421131" id="form-empresa__apoyo" placeholder="¿Cómo deseas colaborar?" cols="35" rows="2" maxlength="500"></textarea>
+                </div>
+                <button type="submit" class="formulario__button" id="form-empresa__btnEnviar" disabled>Enviar</button>
+                <span id="form-empresa__confirmation">Gracias por colaborar, nos pondremos en contacto contigo</span>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="colabora__especie"></div>
+    <div class="colabora-efectivo especie" id="efectivo">
+         <div class="colabora-efectivo__container">
+             <h3 class="colabora-efectivo__title">Dona en Especie</h3>
+             <p class="colabora-efectivo__text">Puedes donar en especie la siguiente lista de alimentos:</p>
+             <ul class="colabora-efectivo__list">
+                 <li>Arroz</li>
+                 <li>Frijol</li>
+                 <li>Azúcar</li>
+                 <li>Sal</li>
+                 <li>Sardinas</li>
+                 <li>Jabón en polvo</li>
+                 <li>Atún</li>
+                 <li>Aceite</li>
+                 <li>Lata de chiles</li>
+                 <li>Papel higiénico</li>
+             </ul>
+             <div class="colabora__span-container colabora__span-container2">
+                <span><img class="icon__call" src="../icon/call.png" alt="">Llama al: 222 386 2090</span>
+            </div>
+         </div>
+    </div>
+
+    <div id="colabora__comunicacion"></div>
+    <div class="colabora-efectivo comunicacion" id="efectivo">
+    <div class="colabora-efectivo__container">
+        <h3 class="colabora-efectivo__title">Difusión y comunicación</h3>
+        <p class="colabora-efectivo__text">Buscamos personas y empresas que puedan ser embajadores y aliados para la difusión de Colaborando.</p>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdYI0fMhhIYnxyXGCE6_kHItsYMyiVMx79eb_FgQvjxtVVBMQ/formResponse" target="frame">
+        <div class="comunicacion__formulario">
+            <h2>Ponte en contacto <br> con nosotros</h2>
+            <div>
+                <input name="entry.908759136" type="text" placeholder="Nombre" id="form-comunicacion__nombre" maxlength="45">
+            </div>
+            <div>
+                <input name="entry.11706078" type="text" placeholder="Nombre público/comercial" id="form-comunicacion__nombreP" maxlength="45">
+            </div>
+            <div>
+                <input name="entry.444233974" type="text" placeholder="Medio de contacto (Red social)" id="form-comunicacion__contacto" maxlength="45">
+            </div>
+            <div>
+                <textarea name="entry.549421131" id="form-comunicacion__apoyo" placeholder="¿Cómo deseas colaborar?" cols="35" rows="2" maxlength="500"></textarea>
+            </div>
+            <button type="submit" class="formulario__button" id="form-comunicacion__btnEnviar" disabled>Enviar</button>
+            <span id="form-comunicacion__confirmation">Gracias por colaborar, nos pondremos en contacto contigo</span>
+        </div>
+        </form> 
+        
+         </div>
+    </div>
+    <iframe class="iframe__respuestas" src="" name="frame" frameborder="0"></iframe>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__box">
+                <a class="footer__alogo" href=""><img class="footer__logo" src="../img/logoF.png" alt=""></a>
+                <div class="footer__box-content">
+                    <p class="footer__text">Somos un grupo de jóvenes que tienen como objetivo apoyar a las personas más vulnerables en comunidades marginadas.</p>
+                    <div class="footer__social">
+                        <a class="footer__icon-back face" href="https://www.facebook.com/Colaborando-101341211558277" target="_blank"><img class="footer__icon" src="../icon/Facebook.png" alt=""></a>
+                        <a class="footer__icon-back insta" href="https://www.instagram.com/_colaborando_ando/?hl=es-la" target="_blank"><img class="footer__icon" src="../icon/instagram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="footer__box">
+                <h2 class="footer__box-title">Sitio</h2>
+                <div class="footer__line"></div>
+                <div class="footer__box-content">
+                    <a href="../index.html#" class="footer__box-link">Inicio</a>
+                    <a href="../index.html#nosotros" class="footer__box-link">Nosotros</a>
+                    <a href="../index.html#queHacemos" class="footer__box-link">¿Qué hacemos?</a>
+                    <a href="../index.html#proyectos" class="footer__box-link">Proyectos</a>
+                    <a href="../index.html#galeria" class="footer__box-link">Galería</a>
+                </div>
+            </div>
+  
+            <div class="footer__box" id="contact">
+                <h2 class="footer__box-title">Contacto</h2>
+                <div class="footer__line"></div>
+                <div class="footer__box-content">
+                    <div>
+                        <div class="footer__contact">
+                            <img class="icon__mail" src="../icon/mail.png" alt="">
+                            <p class="footer__contact-info">info@colaborando.mx</p>
+                        </div>
+                        <div class="footer__contact">
+                            <img class="icon__phone" src="../icon/phone.png" alt="">
+                            <p class="footer__contact-info">222 386 2090</p>
+                        </div>
+                    </div>
+                    <div class="footer__avisoPrivacidad">
+                        <a href="avisoDePrivacidad.html" class="footer__box-link">Aviso de privacidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/formulario.js"></script>
+</body>
+</html>
